@@ -91,6 +91,11 @@ const config: Config = {
           label: '算法'
         },
         {
+          to: 'resume',
+          label: '简历',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/super-sheng',
           label: 'GitHub',
           position: 'right',

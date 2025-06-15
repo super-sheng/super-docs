@@ -9,3 +9,4 @@ sidebar_position: 1
 - 后端
 - 英语
 - 算法
+- 简历

@@ -28,3 +28,25 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* 简历专用样式 */
+.resume-page {
+  --ifm-navbar-height: 0px; /* 隐藏导航栏用于打印 */
+}
+
+/* 打印样式优化 */
+@media print {
+  .navbar, .footer, .theme-doc-sidebar-container {
+    display: none !important;
+  }
+  
+  .main-wrapper {
+    margin-left: 0 !important;
+  }
+  
+  .container {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}
